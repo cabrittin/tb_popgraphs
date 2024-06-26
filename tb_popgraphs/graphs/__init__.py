@@ -1,1 +1,1 @@
-from toolbox.graphs._graphs import *
+from tb_popgraphs.graphs._graphs import *
