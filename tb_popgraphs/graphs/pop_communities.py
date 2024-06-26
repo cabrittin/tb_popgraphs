@@ -18,8 +18,8 @@ from tqdm import tqdm
 import seaborn as sns
 import matplotlib as mpl
 
-import toolbox.graphs.modify as gm
-from toolbox.graphs import consensus
+import tb_popgraphs.graphs.modify as gm
+from tb_popgraphs.graphs import consensus
 from collections import defaultdict
 
 def pop_comm_generate(PG,pop_size,tqdm_disable=True,tqdm_desc='Iter',**kwargs):
